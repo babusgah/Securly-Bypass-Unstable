@@ -1,0 +1,99 @@
+/* styles.css */
+
+/* Basic reset for margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #111;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #00ffcc;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.subtitle {
+  color: #66ff33;
+  font-style: italic;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+label {
+  margin-right: 15px;
+  color: #fff;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 12px;
+  border: 1px solid #66ff33;
+  border-radius: 6px;
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+button {
+  padding: 12px 24px;
+  border: 2px solid #00ffcc;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #00ffcc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: rgba(0, 255, 204, 0.2);
+}
+
+p {
+  color: #aaa;
+  line-height: 1.6;
+}
+
+/* Added styles for the additional text */
+.container p {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #aaa;
+  text-align: center;
+}
+
+.container p strong {
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
